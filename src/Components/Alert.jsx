@@ -8,7 +8,7 @@ export default function Alert({ message }) {
         setAlert(true);
         setTimeout(() => {
             setAlert(false)
-        },1000)
+        },1500)
        }
     }, [message])
 
