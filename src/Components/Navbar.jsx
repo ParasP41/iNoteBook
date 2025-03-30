@@ -19,7 +19,6 @@ export default function Navbar() {
                                     <button type="button" className="flex text-sm  rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" aria-expanded="false" data-dropdown-toggle="dropdown-user">
                                         <span className="sr-only">Open user menu</span>
                                         <BsFillJournalBookmarkFill className='w-7 h-7 dark:text-white  ' />
-                                        {/* <img className="" src="" alt="user photo"/> */}
                                     </button>
                                 </div>
                             </div>

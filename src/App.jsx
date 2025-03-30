@@ -24,7 +24,7 @@ export default function App() {
     setNote((prev) => prev.filter((prevNote) => prevNote.id !== id));
   };
 
-  const [message,setMessage]=useState()
+  const [message,setMessage]=useState(null)
   const alertMessage = (mess)=>
   {
     setMessage(mess) 

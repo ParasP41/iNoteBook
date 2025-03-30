@@ -32,7 +32,7 @@ export default function NoteInput() {
         e.preventDefault();
         if(title ==="" && description ==="" )
         {
-        return alert('Please enter a note');
+           alertMessage("Please enter a Note")
         }
         else
         {
